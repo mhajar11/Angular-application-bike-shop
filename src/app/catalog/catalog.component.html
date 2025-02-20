@@ -1,0 +1,32 @@
+<div class="catalog-container">
+
+    <div>
+      <h2>Bikes</h2>
+      <div class="product-group">
+        <div class="product-card" *ngFor="let bike of bikes">
+          <h3>{{ bike.name }} - {{ bike.category }}</h3>
+          <p>{{ bike.description }}</p>
+          <p>Price: {{ bike.price }} €</p>
+  
+          <!-- le bouton add item-->
+          <button (click)="addToCart(bike)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <h2>Accessories</h2>
+      <div class="product-group">
+        <div class="product-card" *ngFor="let accessory of accessories">
+          <h3>{{ accessory.name }}</h3>
+          <p>{{ accessory.description }}</p>
+          <p>Price: {{ accessory.price }} €</p>
+  
+          <!-- pareil ici -->
+          <button (click)="addToCart(accessory)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  

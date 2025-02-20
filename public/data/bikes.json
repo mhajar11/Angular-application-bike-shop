@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Mountain Bike",
+      "category": "Mountain",
+      "description": "A great mountain bike .",
+      "price": 500
+    },
+    {
+      "name": "Road Bike",
+      "category": "Road",
+      "description": "Perfect for road racing .",
+      "price": 700
+    }
+  ]
+  
