@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Helmet",
+      "description": "Safety first! .",
+      "price": 50
+    },
+    {
+      "name": "Water Bottle",
+      "description": "Stay hydrated .",
+      "price": 10
+    }
+  ]
+  

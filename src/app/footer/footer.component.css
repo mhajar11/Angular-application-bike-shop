@@ -1,0 +1,9 @@
+footer {
+    margin-top: 2rem;      /* Espacement vers le contenu principal */
+    text-align: center;    /* Centrer le texte */
+    color: #555;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ccc;
+  }
+  
